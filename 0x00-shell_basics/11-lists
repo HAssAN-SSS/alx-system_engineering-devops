@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lnvX -U -a ./[.]* ../[.]* /boot/[.]*
+ls -lnvX -U -a .[^.]* ./ ../ /boot
