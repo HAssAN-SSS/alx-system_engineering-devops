@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -lanvX /boot ../ ./ 
+ls -lanvX ./ /boot ../ | awk '{print} END {print ""} END {print "../:"} END {print "total 0"}' | sed 's/ \.\//.:/'
+
