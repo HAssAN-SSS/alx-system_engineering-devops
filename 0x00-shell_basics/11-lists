@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ln -U -a ./ ../ /boot
+ls -lnvX -U -a ./ ../ /boot
