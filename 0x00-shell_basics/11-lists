@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lanvX ./ ../ /boot
+ls -lanvX /boot ../ ./ 
