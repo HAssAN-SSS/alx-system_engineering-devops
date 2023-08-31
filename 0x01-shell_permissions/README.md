@@ -1,0 +1,1 @@
+shell permesion 0x01
